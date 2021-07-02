@@ -1,6 +1,6 @@
 {
-    "name": "Isnav Bienes Raices",
-    "short_name": "IsnavL",
+    "name": "Isnav Favicon",
+    "short_name": "Isnav",
     "icons": [
         {
             "src": "/favicon_data/favicon2.png",
@@ -11,6 +11,11 @@
             "src": "/favicon_data/favicon1.png",
             "sizes": "32x32",
             "type": "image/png"
+        },        
+        {
+            "src": "/favicon_data/Isnav-Bienes-Raices.png",
+            "sizes": "130x88",
+            "type":"image/png"
         }
     ],
     "theme_color":"#fff",
