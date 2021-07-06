@@ -1,12 +1,42 @@
-<header class="top-nav">
-    <nav class="nav-main">
-        <a class="home-button" href="/">{{ site.author.firstName }} {{ site.author.lastName }}</a>
-        <ul class="nav-list">
-            <li style="margin-left: 0"><a class="link" href="/">Home</a></li>
-            <li><a class="link" href="/about/">About</a></li>
-            <li><a class="link" href="/PuntaCana/">Punta Cana</a></li>
-            <li><a class="link" href="/Sosua/">Sosua</a></li>
-            <li><a class="link" href="https://github.com/tannerdolby/eleventy-photo-gallery">Code</a></li>
-        </ul>
+
+    <nav>
+        <a href="/home.html"><img src="/assets/logo3.png" class="logo"></a>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li><a href="./home.html" class="active">INICIO</a></li>
+                <li><a href="./aboutus.html">SOBRE NOSOTROS</a></li>
+                <li><a href="./services.html">SERVICIOS</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Venta</a></li>
+                            <li class="hover-me"><a href="#">Alquiler</a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Domiciliario</a></li>
+                                        <li><a href="#">Vacacional</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Inversión</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./location.html">LOCACIONES</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="/SantoDomingo/">Santo Domingo</a></li>
+                            <li><a href="/PuntaCana/">Punta Cana</a></li>
+                            <li><a href="/Sosua/">Sosua</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="./contactus.html">CONTÁCTANOS</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
-</header>

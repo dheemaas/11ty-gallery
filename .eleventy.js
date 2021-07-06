@@ -18,8 +18,10 @@ module.exports = (eleventyConfig) => {
     // Perform manual passthrough file copy to include directories in the build output _site
     eleventyConfig.addPassthroughCopy("./src/images");
     eleventyConfig.addPassthroughCopy("./src/photos");
+    eleventyConfig.addPassthroughCopy("./src/assets");
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/js");
+    eleventyConfig.addPassthroughCopy("./src/_redirects");
     eleventyConfig.addPassthroughCopy("./src/favicon_data");
 
     // Create css-clean CSS Minifier filter
@@ -63,7 +65,7 @@ module.exports = (eleventyConfig) => {
             input: "src",
             output: "_site",
             layouts: "_includes/layouts",
-            includes: "_includes",
+            includes: "_includes/",
         },
         templateFormats: ["md", "liquid", "njk"],
         passthroughFileCopy: true
