@@ -1,4 +1,9 @@
 /home.html* https://practical-northcutt-ebcbba.netlify.app/:splat 301!
+/aboutus.html* https://practical-northcutt-ebcbba.netlify.app/aboutsus.html/:splat 301!
+/services.html* https://practical-northcutt-ebcbba.netlify.app/services.html:splat 301!
+/locations.html* https://practical-northcutt-ebcbba.netlify.app/locations.html:splat 301!
+/blog.html* https://practical-northcutt-ebcbba.netlify.app/blog.html:splat 301!
+/contactus.html* https://practical-northcutt-ebcbba.netlify.app/contactus.html:splat 301!
 
 /santodomingo/home.html* https://practical-northcutt-ebcbba.netlify.app/:splat 301!
 /santodomingo/aboutus.html* https://practical-northcutt-ebcbba.netlify.app/aboutus.html:splat 301!
