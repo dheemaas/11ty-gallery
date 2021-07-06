@@ -636,3 +636,79 @@ footer .social-links li {
     margin-left: 140px;
     background: rgb(31, 31, 32);
 }
+
+
+
+/* ------ Footer ------  */
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+}
+
+.footer h4{
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #BFA847;
+}
+
+.footer p{
+    color: #134D77;
+}
+
+.footer a{
+    color: #BFA847;
+    text-decoration: none;
+}
+
+.icons .fab{
+    color: #134D77;
+    margin: 10px 15px;
+    cursor: pointer;
+    padding: 18px 0;
+    transition: 150ms ease-in;
+}
+
+.icons i:hover {
+    transform: translateY(-5px);
+}
+
+.icons i#facebook:hover {
+    color: #4267B2;
+}
+
+.icons i#instagram:hover {
+    color: #E1306C;
+}
+
+.icons i#whatsapp:hover {
+    color: #25D366;
+}
+
+.icons i#youtube:hover {
+    color: #FF0000;
+}
+
+.icons i#linkedin:hover {
+    color: #0072b1;
+}
+
+.disclaimer{
+    top: 30px;
+    height: 8vh;
+    background-color: rgb(31, 31, 32);
+    width: 100%;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #BFA847;
+}
+
+@media screen and (max-width: 700px){
+    .disclaimer{
+        font-size: 10px;
+    }
+}

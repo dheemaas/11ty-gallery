@@ -28,7 +28,7 @@ navSlide();
 // Resize nav and logo when scrolling through the title.
 
 const header = document.querySelector('nav');
-const sectionOne = document.querySelector('.page-banner');
+const sectionOne = document.querySelector('.image-container');
 
 const sectionOneOptions = {
     rootMargin: "-100px 0px 0px 0px"

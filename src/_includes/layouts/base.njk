@@ -20,11 +20,13 @@ cardType: summary_large_image
         %}
         <meta name="theme-color" content="#fff">
         <meta name="background-color" content="#fff">
-        <link rel="isnav-bienes-raices" sizes="130x88" href="/favicon_data/Isnav-Bienes-Raices.png">
+        <script src="https://kit.fontawesome.com/30678346c2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="isnav-bienes-raices" sizes="130x88" href="../favicon_data/Isnav-Bienes-Raices.png">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="/favicon_data/favicon2.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="/favicon_data/favicon1.png" sizes="32x32">
-        <link rel="manifest" href="/favicon_data/site.webmanifest">
+        <link rel="icon" type="image/png" href="../favicon_data/favicon2.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../favicon_data/favicon1.png" sizes="32x32">
+        <link rel="manifest" href="../favicon_data/site.webmanifest">
         {% set css %}
             {% include "css/style.css" %}
         {% endset %}
@@ -60,18 +62,9 @@ cardType: summary_large_image
                 </ul>
             </div>
         </main>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-info home">
-                    <p>&copy; {% getYear %} {{ site.author.firstName }} {{ site.author.lastName }}. Built with <a href="https://www.11ty.dev/">Eleventy</a></p>
-                    <ul class="footer-links">
-                        <li class="footer-link"><a href="{{ site.socials.dribbble }}">Dribbble</a></li>
-                        <li class="footer-link"><a href="{{ site.socials.twitter }}">Twitter</a></li>
-                        <li class="footer-link"><a href="{{ site.socials.linkedin }}">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+
+        {% include "layouts/footer.njk" %}
+
         <script src="/js/script.js"></script>
     </body>
 </html>
