@@ -1,13 +1,13 @@
 {   
     "author": {
-        "firstName": "John",
-        "lastName": "Smith",
+        "firstName": "Isnav",
+        "lastName": "Bienes Raices",
         "email": "foo.bar@gmail.com",
-        "twitterHandle": "@tannerdolby"
+        "twitterHandle": "@isnavbienesraices"
     },
     "socials": {
-        "twitter": "https://twitter.com/tannerdolby",
-        "linkedin": "https://linkedin.com/in/tanner-dolby",
+        "twitter": "https://twitter.com/isnavbienesiraces",
+        "linkedin": "https://linkedin.com/in/isnavbienesraices",
         "dribbble": "https://dribbble.com/tannerdolby"
     },
     "pageMetadata": {
@@ -15,7 +15,7 @@
             "content": "A photo gallery template with stock photos provided from Pexels. Add or remove images from the grid and customize your own image gallery!"
         },
         "featured": {
-            "content": "from John Smith's gallery."
+            "content": "de la galeria de ISNAV."
         },
         "about": {
             "content": "A page about John Smith, and photography. This template is currently the default version so add your own about me page info here."
