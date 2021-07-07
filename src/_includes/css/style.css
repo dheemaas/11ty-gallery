@@ -637,6 +637,13 @@ footer .social-links li {
     background: rgb(31, 31, 32);
 }
 
+@media screen and (max-width: 700px){
+    .sub-menu-1,
+    .sub-menu-2 {
+        display: none;
+    }
+}
+
 
 
 /* ------ Footer ------  */
