@@ -42,7 +42,7 @@ cardType: summary_large_image
             </div>
             <div class="gallery">
                 <ul class="image-grid">
-                    {% for image in gallery %}
+                    {% for image in comfortsuites %}
                     <li class="image-container">
                         <a href="/gallery/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
                             {% respimg 
